@@ -5,6 +5,15 @@ const root = ReactDOM.createRoot(document.getElementById('root'))
 
 //Primer componente
 function Greeting() {
-    return <h1>Hello world</h1>
+    return <div>
+        <h1>Hola mundo</h1>
+    </div>
 }
+
+root.render(
+    <div>
+        <Greeting />
+        <Greeting />
+    </div>
+)
 
